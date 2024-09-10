@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, red, black);
+    padding: 30px;
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 153, 255);
+    text-shadow: 6px 6px 6px grey;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+nav a{
+    color:  rgb(129, 54, 0);
+    text-shadow: 2px 5px 6px rgb(104, 0, 0);
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+nav a:hover{
+    color:rgb(129, 54, 0);
+    font-weight: bold;
+}
+
+.section-image1{
+    border: 2px solid;
+    width: 100%; /*largura da seção*/
+    height: 500px; /*altura da seção*/
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    color: rgb(129, 54, 0);
+    border-radius: 20px;
+    
+    /*Configurando a imagem de fundo*/
+    background-image: url(./img/imagem1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-image1 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+section{
+    background-color: black;
+    width: 100%; /*largura da seção*/
+    height: 500px; /*altura da seção*/
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    color: rgb(129, 54, 0);
+    border-radius: 20px;
+}
+
+section h1{
+    margin-bottom: 20px;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    font-size: 50px;
+}
+
+.section-image2{
+    border: 2px solid;
+    width: 100%; /*largura da seção*/
+    height: 500px; /*altura da seção*/
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    color: rgb(129, 54, 0);
+    border-radius: 20px;
+    
+    /*Configurando a imagem de fundo*/
+    background-image: url(./img/imagem2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-image2 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.section-image3{
+    border: 2px solid;
+    width: 100%; /*largura da seção*/
+    height: 500px; /*altura da seção*/
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    color: rgb(129, 54, 0);
+    border-radius: 20px;
+    
+    /*Configurando a imagem de fundo*/
+    background-image: url(./img/imagem3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-image3 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.section-image4{
+    border: 2px solid;
+    width: 100%; /*largura da seção*/
+    height: 500px; /*altura da seção*/
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 6px 6px 6px rgb(104, 0, 0);
+    color: rgb(129, 54, 0);
+    border-radius: 20px;
+    
+    /*Configurando a imagem de fundo*/
+    background-image: url(./img/imagem4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-image4 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+footer{
+    text-align: center;
+    background: linear-gradient(to bottom, black, red);
+    padding: 30px;
+
+}
